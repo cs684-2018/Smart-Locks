@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Lock</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="userid">UserID</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="generate">Generate</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">UnLock</string>
+    <string name="create">Create</string>
+    <string name="username">Username</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="passworderror" >Valid Password of minimum 6 length is required</string>
+
+    <string name="usernameerror" >Valid Username is required</string>
+    <string name="emailiderror" >Valid Email-ID is required</string>
+</resources>

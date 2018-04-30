@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/generatepattern"
+            android:title="Generate Pattern"
+            android:icon="@drawable/ic_mode_edit_black_24dp"/>
+
+        <item android:id="@+id/changepassword"
+            android:title="Change Password"
+            android:icon="@drawable/ic_fingerprint_black_24dp"/>
+
+
+        <item android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+    </group>
+</menu>

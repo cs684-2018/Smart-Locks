@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Generate Pattern"/>
+
+    <Button
+        android:id="@+id/generatepattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:text="Generate Pattern" />
+
+    <TextView
+        android:id="@+id/pattern"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/generatepattern"
+        android:layout_below="@+id/generatepattern"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Pattern"
+        android:inputType="textPersonName"
+        android:textSize="25sp" />
+
+</RelativeLayout>
